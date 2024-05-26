@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(../font/Figtree-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url(../font/Figtree-Medium.ttf);
+  font-weight: 500;
+}
+:root {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+}
+.itemContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 20%;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px black solid;
+  padding: 20px;
+  box-shadow: 7px 7px black;
+}
+.image1 {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  margin: auto;
+}
+.item button {
+  padding: 6px;
+  border: none;
+  margin-top: 20px;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item h1 {
+  cursor: pointer;
+  font-size: larger;
+}
+.item h1:active {
+  color: hsl(47, 88%, 63%);
+}
+.description {
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
+}
+.date {
+  color: black;
+}
+
+.photo-content div img {
+  width: 100%;
+}
+
+.photo-content div {
+  width: 15%;
+}
+.photo-content {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+@media screen and (max-width: 375px) {
+  .item {
+    width: 100%;
+  }
+}
