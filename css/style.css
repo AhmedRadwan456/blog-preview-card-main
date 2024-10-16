@@ -69,7 +69,12 @@
   align-items: center;
   column-gap: 10px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 765px) {
+  .item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 475px) {
   .item {
     width: 100%;
   }
